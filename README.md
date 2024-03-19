@@ -107,4 +107,6 @@ graph TD;
     Trimmomatic --> Ensamblaje;
 ```
 
+
+
 Puede aprender sobre Github en la [Guía de inicio rápido](https://docs.github.com/es/get-started/start-your-journey)
