@@ -31,6 +31,9 @@ Analizar los datos metagenómicos de las regiones ITS amplificadas de hongos fil
 * Identificar molecularmente a las especies de hongos filamentosos mediante un BLASTN del NCBI.
 * Extraer la información taxonómica con la alineación de las secuencias consenso mediante MSA en T-coffee y analizarla en la plataforma Galaxy Europe. 
 
+# Flujograma de trabajo
+
+![Flujograma](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Trabajo_final_flujograma.jpg?raw=true)
 
 ## 1. Titulos
 ```
