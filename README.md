@@ -23,12 +23,14 @@ La ausencia de estudios previos sobre la microbiota fúngica en los suelos del s
 
 # Objetivos
 
-# Objetivo general
-Analizar metagenómicamente las regiones ITS de hongos filamentosos asociados al suelo de la Hacienda "El Prado" utilizando herramientas de análisis 
+## Objetivo general
+Analizar los datos metagenómicos de las regiones ITS amplificadas de hongos filamentosos utilizando herramientas bioinformáticas.
 
-# Objetivos específicos
-Realizar el control de calidad de los datos crudos de secuencia de las regiones ITS por medio de FASTQc.
-#
+## Objetivos específicos
+* Realizar el control de calidad de los datos crudos de secuencia de las regiones ITS por medio de la herramienta FASTQc en terminal de Linux.
+* Identificar molecularmente a las especies de hongos filamentosos mediante un BLASTN del NCBI.
+* Extraer la información taxonómica con la alineación de las secuencias consenso mediante MSA en T-coffee y analizarla en la plataforma Galaxy Europe. 
+
 
 ## 1. Titulos
 ```
