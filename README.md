@@ -16,6 +16,15 @@ Aquí vemos la diferencia entre un procesador de texto (tipo Word) vs Markdown, 
 
 Les dejo algunos formatos para el uso :+1: :
 
+# Objetivos
+
+# Objetivo general
+# Analizar metagenómicamente las regiones ITS de hongos filamentosos asociados al suelo, "Hacienda El Prado" utilizando herramientas de análisis 
+
+# Objetivos específicos
+# Realizar el control de calidad de los datos crudos de secuencia de las regiones ITS por medio de FASTQc.
+# 
+
 ## 1. Titulos
 ```
 # Título primer nivel
