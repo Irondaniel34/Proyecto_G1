@@ -1,7 +1,7 @@
-# Análisis de datos metagenómicos de regiones ITS de hongos filamentosos asociados al suelo, "Hacienda El Prado" - Sangolquí
+# Análisis de datos metagenómicos de regiones ITS de hongos filamentosos asociados al suelo de la Hacienda "El Prado" - Sangolquí
 
 **Autores:** 
-**Ing Almeida Stefany**, **Ing Córdova Daniel** y **Ing Drouet Ariana**
+**Ing. Almeida Stefany**, **Ing. Córdova Daniel** y **Ing. Drouet Ariana**
 
 **Fecha:**  marzo 2024
 
@@ -16,15 +16,21 @@ Aquí vemos la diferencia entre un procesador de texto (tipo Word) vs Markdown, 
 
 Les dejo algunos formatos para el uso :+1: :
 
+# Antecedentes
+
+La ausencia de estudios previos sobre la microbiota fúngica en los suelos del sector de Horticultura y Fruticultura de la Hacienda “El Prado” - IASA I, ubicada en la provincia Pichincha, cantón Rumiñahui, parroquia Sangolquí, destaca la necesidad de realizar esta investigación. Un proyecto que implica la evaluación pionera de la diversidad de hongos filamentosos, principalmente en aquellos con potencial benéfico para la biorrecuperación de los suelos. 
+
+
 # Objetivos
 
 ## Objetivo general
-### Analizar los datos metagenómicos de las regiones ITS amplificadas de hongos filamentosos utilizando herramientas bioinformáticas.
+Analizar los datos metagenómicos de las regiones ITS amplificadas de hongos filamentosos utilizando herramientas bioinformáticas.
 
 ## Objetivos específicos
-### Realizar el control de calidad de los datos crudos de secuencia de las regiones ITS por medio de la herramienta FASTQc en terminal de Linux.
-### Identificar molecularmente a las especies de hongos filamentosos mediante un BLASTN del NCBI.
-### Extraer la información taxonómica con la alineación de las secuencias consenso mediante MSA en T-coffee y analizarla en la plataforma Galaxy Europe. 
+* Realizar el control de calidad de los datos crudos de secuencia de las regiones ITS por medio de la herramienta FASTQc en terminal de Linux.
+* Identificar molecularmente a las especies de hongos filamentosos mediante un BLASTN del NCBI.
+* Extraer la información taxonómica con la alineación de las secuencias consenso mediante MSA en T-coffee y analizarla en la plataforma Galaxy Europe. 
+
 
 ## 1. Titulos
 ```
