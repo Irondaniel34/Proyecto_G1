@@ -30,7 +30,7 @@ Analizar los datos metagenómicos de las regiones ITS amplificadas de hongos fil
 # 5.  Análisis de datos
 
 ## 5.1  Importación y preprocesamiento de los datos 
-Los datos crudos provienen de muestras de hongos filamentosos asociados al suelo de la Hacienda "El Prado", los cuales fueron aislados en laboratorio para posteriormente ser identificados molecularmente mediante la secuenciación por el método Sanger y el análisis de la región ITS amplificada con los primers ITS1 (TCCGTAGGTGAACCTGCGG) e ITS4 (TCCTCCGCTTATTGATATGC) reportados por White et al. (1990). 
+Los datos crudos provienen de muestras de hongos filamentosos asociados al suelo de la Hacienda "El Prado", los cuales fueron aislados en laboratorio para posteriormente ser identificados molecularmente mediante la secuenciación por el método Sanger y el análisis de la región ITS amplificada con los primers ITS1 (TCCGTAGGTGAACCTGCGG) e ITS4 (TCCTCCGCTTATTGATATGC) reportados por White et al. (1990).
 Se realizó la importación de la data procediente del secuenciador en formato *.ab1*. Por lo cual, previo al análisis de calidad es necesario realizar la conversión al formato *.fastq*, la misma que puede realizarse mediante el uso de BioPhyton (a través de Google Colab), usando la plataforma Galaxy Europe o mediante el uso de la terminal del sistema operativo Linux, de acuerdo con la siguiente metodología:
 
 ### 5.1.1  Conversión de secuencias mediante BioPhyton
@@ -56,7 +56,12 @@ for filename in ITS_files:
     dst = os.path.join(carpeta_entrada_path, filename)
     shutil.move(src, dst)
 ```
-La segunda fase consistió en la conversión de las secuencias a formato *.fastq* para lo cual se utilizó el soguiente código:
+Al carga de archivos .ab1 se muestra a continuación:
+
+![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/dc9492430763dcff0a7347c0b3520ad188615f7b/Capturas_de_pantalla/Biophyton_carga%20de%20archivos%20ab1.jpg)
+
+
+La segunda fase consistió en la conversión de las secuencias a formato *.fastq* para lo cual se utilizó el siguiente código:
 ```
 # Instalación de Biophyton e importación de paquetes
 !pip install biopython
@@ -95,10 +100,11 @@ print(f"Archivos convertidos y guardados en el directorio: {output_folder_path}"
 !zip -r {output_folder}.zip {output_folder_path}
 files.download(f"{output_folder}.zip")
 ```
+La conversión realizada de los archivos *.ab1* a *.fastq* mientras el código se encuentra corriendo en Biophyton se muestra a continuación:
+
+![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/dc9492430763dcff0a7347c0b3520ad188615f7b/Capturas_de_pantalla/Biophyton_conversi%C3%B3n%20de%20archivos%20ab1%20a%20fastq.jpg)
+
 El cuaderno de Google Colab se puede encontrar en el siguiente documento: [Proyecto_final_G1_ab1_to_fastq.ipynb](https://github.com/Irondaniel34/Proyecto_G1/blob/a27b121c371726325dae74519bc4dcacb4aa3c32/Proyecto_final_G1_ab1_to_fastq.ipynb)
-
-Los resultados de las secuencias obtenidas se muestran la figura a continuación:
-
 
 
 ### 5.1.2  Conversión de secuencias mediante Galaxy Europe
