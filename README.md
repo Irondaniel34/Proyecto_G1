@@ -133,6 +133,7 @@ sudo apt install emboss
 ```
 Para instalar el paquete EMBOSS, que contienen la herramienta SEQRET que nos permite el paso de .ab1 a .fastq
 ![Imagen2_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/instalaci%C3%B3n%20emboss.jpg)
+
 **Nota:** *El paquete EMBOSS fue previamente instalado, es por eso que no sale el mensaje tradicional de su instalación*
 ```
 mkdir ITS_fastq1 # Para crear la carpeta de salida de los archivos FASTQ
@@ -150,7 +151,7 @@ Con las secuencias en formato FastQ, se realizó el análisis para el control de
 ![Imagen3_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy4.png)
 
 Según el informe de calidad obtenido, se analizan las secuencias y se opta por relizar un corte para mejorar la calidad de las mismas. 
-![Imagen3_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy4.png)
+![Imagen3_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy5.png)
 
 ### 5.2.2  Informe de calidad mediante terminal de Linux
 
@@ -177,16 +178,21 @@ Visualización de FASTQc mediante archivo *.html*
 
 ## 5.3 Trimmomatic 
 ### 5.3.1  Informe de calidad mediante Galaxy Europe
+Dado que algunas secuencias presentaban una calidad deficiente, se procedió a realizar un filtrado utilizando la herramienta Trimmomatic.
+![Imagen3_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy6.png)
 
+Se procedió de inmediato a ejecutar un informe de calidad para cada una de estas secuencias utilizando FastQC. Se verificó que la calidad había mejorado significativamente, lo que permitió avanzar sin contratiempos en el proceso.
 ### 5.3.2  Informe de calidad mediante terminal de Linux
 También se efectuó la herramienta *Trimmomatic* por medio de línea de comando de Linux, se tomó esta decisión al ver que mediante otras plataformas existía problemas al cargar los archivos.
 Para la realización de los cortes de trimmomatic, se consultó a la inteligencia artificial, la cuál indicó:
 
 Descargar la aplicación de Trimmomatic de la página oficial.
+
 **Nota:** Página web de la herramienta Trimmomatic
 ![Imagen8Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/P%C3%A1gina%20de%20descarga%20de%20trimo.jpg?raw=true)
 [USADELLAB.org](http://www.usadellab.org/cms/index.php?page=trimmomatic)
-**Nota:** Link de descarga
+
+**Link de descarga**
 
 Se ejecutó el comando de descarga y tras lo cual se efectuó un unzip del archivo descargado usando:
 ```
@@ -194,9 +200,9 @@ wget http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-
 unzip Trimmomatic-0.39.zip
 ```
 ![Imagen9Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Descarga%20y%20unzip%20de%20trimo.jpg?raw=true)
-#### 
 
-#### La ejecución de la herramienta se llevó a cabo con línea de comando, usando:
+La ejecución de la herramienta se llevó a cabo con línea de comando, usando:
+
 ```
 mkdir F1T #CREA CARPETA DESTINO
 for file in ITS_fastq1/*.fastq; do    
@@ -207,12 +213,14 @@ ILLUMINACLIP:Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 LEADING:20 TRAILING
 MINLEN:36 -phred33
 done
 ```
-#### Este comando creó un directorio (F1T) al cual salieron las nuevas secuencias cortadas con la herramienta, se especificó para el corte de tipo *Leading* y *Trailing* y se especifica que tipo de criterio de calidad de Phred utilizar, en este caso 33.
+
+Este comando creó un directorio (F1T) al cual salieron las nuevas secuencias cortadas con la herramienta, se especificó para el corte de tipo *Leading* y *Trailing* y se especifica que tipo de criterio de calidad de Phred utilizar, en este caso 33.
+
 ![Imagen10Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Trimme%20linux.jpg?raw=true)
 ![Imagen11Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/ls%20trimo.jpg?raw=true)
 
-###### Nota: A las secuencias resultantes se les volvió a aplicar un control de calidad con FASTQc y se descartaron 7 secuencias que no cumplieron  con los estándares de los autores.
-#### Las secuencias finales se utilizaron en la plataforma Galaxy Europe para la realización de la secuencia consenso.
+**Nota:** A las secuencias resultantes se les volvió a aplicar un control de calidad con FASTQc y se descartaron 7 secuencias que no cumplieron  con los estándares de los autores.
+Las secuencias finales se utilizaron en la plataforma Galaxy Europe para la realización de la secuencia consenso.
 
 
 
