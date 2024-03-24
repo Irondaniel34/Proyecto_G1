@@ -227,7 +227,9 @@ Con la asistencia de la plataforma Galaxy, se logró generar secuencias consenso
 
 ![Imagen10Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy7.png)
 
+Una vez que se obtuvo la secuencia consenso, se transformó las secuancias a formato FASTA, dado que este formato es ampliamente utilizado y es compatible con una variedad de herramientas y plataformas de análisis bioinformático. 
 
+![Imagen10Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy8.png)
 
 
 
