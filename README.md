@@ -26,22 +26,17 @@ Analizar los datos metagenómicos de las regiones ITS amplificadas de hongos fil
 
 ![Flujograma](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Trabajo_final_flujograma.jpg?raw=true)
 
-## Metodología 
-
-### 1. Plataforma Galaxy
-Se cargaron en modo de colección los datos en formato ab1 tanto para ITS1 e ITS4.
-
-![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy1)
-
-
-### DATOS 
-### Los datos crudos fueron obtenidos de un Secuenciador Sanger. Las amplificaciones fueron realizados con primers para ITS1 e ITS4. 
-### Se realizó la importación de la data procediente del secuenciador en formato *.ab1* 
-### Estos archivos deben de pasar a formato *.fastq* mediante el uso de BioPhyton (a través de Google Colab), usando la plataforma Galaxy Europe y mediante el uso de la terminal del sistema operativo Linux.
+### Datos
+Los datos crudos fueron obtenidos de un Secuenciador Sanger. Las amplificaciones fueron realizados con primers para ITS1 e ITS4. 
+Se realizó la importación de la data procediente del secuenciador en formato *.ab1* 
+Estos archivos deben de pasar a formato *.fastq* mediante el uso de BioPhyton (a través de Google Colab), usando la plataforma Galaxy Europe y mediante el uso de la terminal del sistema operativo Linux.
 
 ### Mediante BioPhyton
 
 ### Mediante Galaxy Europe
+Se cargaron en modo de colección los datos en formato ab1 tanto para ITS1 e ITS4.
+
+![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy1)
 
 ### Mediante terminal de Linux
 
