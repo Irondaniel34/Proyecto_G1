@@ -61,7 +61,7 @@ sudo apt install emboss
 ```
 mkdir ITS_fastq1 # Para crear la carpeta de salida de los archivos FASTQ
 for file in ITS1/*.ab1;do  # Para realizar un bucle, en el que los archivos dentro de la carpeta ITS1 que tengan la extensión AB1, realicen la conversión
-seqret -sequence $file -outseq ITS_fastq1/$(basename $file .ab1).fastq -osformat2 fastq; done # Comando de la conversión de .ab1 a .fastq y su salida a la carpeta previamente creada. 
+seqret -sequence $file -outseq ITS_fastq1/$(basename $file .ab1).fastq -osformat2 fastq; done # Comando seqret para la conversión de .ab1 a .fastq y su salida a la carpeta previamente creada. 
 ```
 ![Imagen3_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/ab12fastq.jpg)
 
@@ -74,6 +74,7 @@ seqret -sequence $file -outseq ITS_fastq1/$(basename $file .ab1).fastq -osformat
 sudo apt install fastqc
 ```
 ![Imagen4_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/instalacion%20fastqc.jpg?raw=true)
+##### Nota: El paquete FASTQc ya había sido previamente instalado.
 
 #### Posteriormente se realizó el análisis FASTQc, esto crea archivos con extensión *.html*, en la que nos permitirá visualizar las calidades, esto con los comandos:
 ```
@@ -82,3 +83,44 @@ fastqc ITS_fastq1/*.fastq -o ITS_fastqc1 # Todos los archivos dentro de la carpe
 ```
 ![Imagen5_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Fastqc%20y%20salida%20a%20otra%20carpeta.jpg?raw=true)
 
+![Imagen6_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Fastqc%20en%20carpeta.jpg?raw=true)
+###### Archivos *.html* en carpeta creada.
+![Imagen7_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/fasqcWEB.jpg?raw=true)
+###### Visualización de FASTQc mediante archivo *.html*
+
+## Trimmomatic 
+
+#### También se efectuó la herramienta *Trimmomatic* por medio de línea de comando de Linux, se tomó esta decisión al ver que mediante otras plataformas existía problemas al cargar los archivos.
+
+#### Para la realización de los cortes de trimmomatic, se consultó a la inteligencia artificial, la cuál indicó:
+#### Descargar la aplicación de Trimmomatic de la página oficial.
+#### Página web de la herramienta Trimmomatic
+![Imagen8Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/P%C3%A1gina%20de%20descarga%20de%20trimo.jpg?raw=true)
+[USADELLAB.org](http://www.usadellab.org/cms/index.php?page=trimmomatic)
+###### Link de descarga
+
+#### Se ejecutó el comando de descarga y tras lo cual se efectuó un unzip del archivo descargado usando:
+```
+wget http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.zip
+unzip Trimmomatic-0.39.zip
+```
+![Imagen9Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Descarga%20y%20unzip%20de%20trimo.jpg?raw=true)
+#### 
+
+#### La ejecución de la herramienta se llevó a cabo con línea de comando, usando:
+```
+mkdir F1T #CREA CARPETA DESTINO
+for file in ITS_fastq1/*.fastq; do    
+filename=$(basename -- "$file")
+output="F1T/trimmed_${filename}"
+java -jar Trimmomatic-0.39/trimmomatic-0.39.jar SE -threads 4 "$file" "$output" \
+ILLUMINACLIP:Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 LEADING:20 TRAILING:20 \
+MINLEN:36 -phred33
+done
+```
+#### Este comando creó un directorio (F1T) al cual salieron las nuevas secuencias cortadas con la herramienta, se especificó para el corte de tipo *Leading* y *Trailing* y se especifica que tipo de criterio de calidad de Phred utilizar, en este caso 33.
+![Imagen10Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Trimme%20linux.jpg?raw=true)
+![Imagen11Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/ls%20trimo.jpg?raw=true)
+
+###### Nota: A las secuencias resultantes se les volvió a aplicar un control de calidad con FASTQc y se descartaron 7 secuencias que no cumplieron  con los estándares de los autores.
+#### Las secuencias finales se utilizaron en la plataforma Galaxy Europe para la realización de la secuencia consenso.
