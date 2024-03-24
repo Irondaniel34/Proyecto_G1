@@ -124,3 +124,65 @@ done
 
 ###### Nota: A las secuencias resultantes se les volvió a aplicar un control de calidad con FASTQc y se descartaron 7 secuencias que no cumplieron  con los estándares de los autores.
 #### Las secuencias finales se utilizaron en la plataforma Galaxy Europe para la realización de la secuencia consenso.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### BLAST EN NCBI
+#### Unión archivos FASTA
+#### Para el *blasteo* de multiples especies en el NCBI se necesitaba realizar un archivo *.fasta* concatenado con todas las secuencias. Motivo por el que se usó la terminal de Linux para unificar los numerosos archivos *.fasta*. 
+#### Esto se realizó utilizando los siguientes comandos:
+```
+for file in Fasta/*.fasta; do # Realiza en bucle de todos los archivos con extensión .fasta
+cat "$file" >> ITS_SC.fasta # Con cat permite obtener un concatenado que se nombrará ITS_SC.fasta
+done
+```
+#### Obtención de FASTA concatenado con las secuencias consenso.
+![Imagen12Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/cat%20FASTA.jpg?raw=true)
+![Imagen13Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/concatenado%20FASTA.jpg?raw=true)
+###### Consolidado de secuencias.
+
+#### Este archivo fue cargado en el BLAST del NCBI. Lo cuál nos entregó los resultados como se aprecia:
+![Imagen14W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/blasteo.jpg?raw=true)
+![Imagen15W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/blast2.jpg?raw=true)
+![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/blast3.jpg?raw=true)
+#### Se hizo el BLAST de múltiples secuencies, para múltiples especies, las cuáles se fueron clasificando en la siguiente tabla:
+
+# INSERTAR TABLA
+
+
