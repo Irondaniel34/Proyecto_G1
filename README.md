@@ -115,9 +115,9 @@ Se construyeron las secuencias
 
 ![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy2.2.png)
 
-De esta manera, se generó un informe de calidad, dónde los archivos en formato FastQ pasaron a FatQC
+Y posteriormente se transofrmaron de formato ab1 a fastQ 
 
-![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/galaxy3.png)
+![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy3.png)
 
 ### 5.1.3  Conversión de secuencias mediante terminal de Linux
 
