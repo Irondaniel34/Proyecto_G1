@@ -115,6 +115,10 @@ Se construyeron las secuencias
 
 ![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy2)
 
+De esta manera, se generó un informe de calidad, dónde los archivos en formato FastQ pasaron a FatQC
+
+![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/galaxy3.png)
+
 ### 5.1.3  Conversión de secuencias mediante terminal de Linux
 
 #### Se descargan los datos crudos del secuenciador en la máquina virtual, estos vienen en un archivo comprimido *.zip*, para lo cual se usa el comando: 
