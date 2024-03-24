@@ -113,7 +113,7 @@ Se cargaron en modo de colección los datos en formato ab1 tanto para ITS1 e ITS
 
 Se construyeron las secuencias 
 
-![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy2)
+![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy2.2.png)
 
 De esta manera, se generó un informe de calidad, dónde los archivos en formato FastQ pasaron a FatQC
 
