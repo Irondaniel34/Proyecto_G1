@@ -28,7 +28,7 @@ Analizar los datos metagenómicos de las regiones ITS amplificadas de hongos fil
 
 ## Metodología 
 
-### Plataforma Galaxy
+### 1. Plataforma Galaxy
 Se cargaron en modo de colección los datos en formato ab1 tanto para ITS1 e ITS4.
 
 ![Imagen1_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Linux1.jpg)
