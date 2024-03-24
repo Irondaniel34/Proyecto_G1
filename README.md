@@ -121,19 +121,19 @@ Y posteriormente se transofrmaron de formato ab1 a fastQ
 
 ### 5.1.3  Conversión de secuencias mediante terminal de Linux
 
-#### Se descargan los datos crudos del secuenciador en la máquina virtual, estos vienen en un archivo comprimido *.zip*, para lo cual se usa el comando: 
+Se descargan los datos crudos del secuenciador en la máquina virtual, estos vienen en un archivo comprimido *.zip*, para lo cual se usa el comando: 
 ```
 unzip nombre_del_archivo.zip
 ```
 ![Imagen1_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Linux1.jpg)
 
-#### Para continuar con el procesamiento de las secuencias se tiene que convertir de un archivo *.ab1* a *.fastq* para lo cual se utilizaron los siguientes comandos:
+Para continuar con el procesamiento de las secuencias se tiene que convertir de un archivo *.ab1* a *.fastq* para lo cual se utilizaron los siguientes comandos:
 ```
 sudo apt install emboss 
 ```
-##### Para instalar el paquete EMBOSS, que contienen la herramienta SEQRET que nos permite el paso de .ab1 a .fastq
+Para instalar el paquete EMBOSS, que contienen la herramienta SEQRET que nos permite el paso de .ab1 a .fastq
 ![Imagen2_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/instalaci%C3%B3n%20emboss.jpg)
-###### **Nota:** *El paquete EMBOSS fue previamente instalado, es por eso que no sale el mensaje tradicional de su instalación*
+**Nota:** *El paquete EMBOSS fue previamente instalado, es por eso que no sale el mensaje tradicional de su instalación*
 ```
 mkdir ITS_fastq1 # Para crear la carpeta de salida de los archivos FASTQ
 for file in ITS1/*.ab1;do  # Para realizar un bucle, en el que los archivos dentro de la carpeta ITS1 que tengan la extensión AB1, realicen la conversión
@@ -141,7 +141,7 @@ seqret -sequence $file -outseq ITS_fastq1/$(basename $file .ab1).fastq -osformat
 ```
 ![Imagen3_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/ab12fastq.jpg)
 
-###### Esto fue realizado en las dos carpetas que contenian archivos *.ab1*, el directorio ITS1 e ITS4.
+Esto fue realizado en las dos carpetas que contenian archivos *.ab1*, el directorio ITS1 e ITS4.
 
 ## 5.2  Informe de calidad FASTQc
 
@@ -150,15 +150,15 @@ seqret -sequence $file -outseq ITS_fastq1/$(basename $file .ab1).fastq -osformat
 
 ### 5.2.1  Informe de calidad mediante terminal de Linux
 
-#### Se efectuó el análisis de calidad de las secuencias mediante la herramienta FASTQc, que se ejecutó mediante línea de comando de Linux. 
-#### Para ello, se tuvo que primero instalar el paquete *FASTQc* en la terminal utilizando el siguiente comando:
+Se efectuó el análisis de calidad de las secuencias mediante la herramienta FASTQc, que se ejecutó mediante línea de comando de Linux. 
+Para ello, se tuvo que primero instalar el paquete *FASTQc* en la terminal utilizando el siguiente comando:
 ```
 sudo apt install fastqc
 ```
 ![Imagen4_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/instalacion%20fastqc.jpg?raw=true)
-##### Nota: El paquete FASTQc ya había sido previamente instalado.
+**Nota:** El paquete FASTQc ya había sido previamente instalado.
 
-#### Posteriormente se realizó el análisis FASTQc, esto crea archivos con extensión *.html*, en la que nos permitirá visualizar las calidades, esto con los comandos:
+Posteriormente se realizó el análisis FASTQc, esto crea archivos con extensión *.html*, en la que nos permitirá visualizar las calidades, esto con los comandos:
 ```
 mkdir ITS_fastqc1 # Para crear un directorio al cual irán los archivos .html
 fastqc ITS_fastq1/*.fastq -o ITS_fastqc1 # Todos los archivos dentro de la carpeta ITS_fastq1 realizarán el control de calidad FASTQc y el argumento -o envía los resultados a la carpeta que se creó previamente.
@@ -166,9 +166,9 @@ fastqc ITS_fastq1/*.fastq -o ITS_fastqc1 # Todos los archivos dentro de la carpe
 ![Imagen5_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Fastqc%20y%20salida%20a%20otra%20carpeta.jpg?raw=true)
 
 ![Imagen6_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Fastqc%20en%20carpeta.jpg?raw=true)
-###### Archivos *.html* en carpeta creada.
+Archivos *.html* en carpeta creada.
 ![Imagen7_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/fasqcWEB.jpg?raw=true)
-###### Visualización de FASTQc mediante archivo *.html*
+Visualización de FASTQc mediante archivo *.html*
 
 ## Trimmomatic 
 
