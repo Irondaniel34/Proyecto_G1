@@ -12,22 +12,22 @@ Los hongos, estimados en 1,5 millones de especies y ubicados en casi todos los e
 La ausencia de estudios previos sobre la microbiota fúngica en los suelos del sector de Horticultura y Fruticultura de la Hacienda “El Prado” - IASA I, ubicada en la provincia Pichincha, cantón Rumiñahui, parroquia Sangolquí, destaca la necesidad de realizar esta investigación. Un proyecto que implica la evaluación pionera de la diversidad de hongos filamentosos, principalmente en aquellos con potencial benéfico para la biorrecuperación de los suelos. 
 
 
-# Objetivos
+## Objetivos
 
-## Objetivo general
+### Objetivo general
 Analizar los datos metagenómicos de las regiones ITS amplificadas de hongos filamentosos utilizando herramientas bioinformáticas.
 
-## Objetivos específicos
+### Objetivos específicos
 * Realizar el control de calidad de los datos crudos de secuencia de las regiones ITS por medio de la herramienta FASTQc en terminal de Linux.
 * Identificar molecularmente a las especies de hongos filamentosos mediante un BLASTN del NCBI.
 * Extraer la información taxonómica con la alineación de las secuencias consenso mediante MSA en T-coffee y analizarla en la plataforma Galaxy Europe. 
 
-# Flujograma de trabajo
+## Flujograma de trabajo
 
 ![Flujograma](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Trabajo_final_flujograma.jpg?raw=true)
 
 
-## DATOS 
+### DATOS 
 ### Los datos crudos fueron obtenidos de un Secuenciador Sanger. Las amplificaciones fueron realizados con primers para ITS1 e ITS4. 
 ### Se realizó la importación de la data procediente del secuenciador en formato *.ab1* 
 ### Estos archivos deben de pasar a formato *.fastq* mediante el uso de BioPhyton (a través de Google Colab), usando la plataforma Galaxy Europe y mediante el uso de la terminal del sistema operativo Linux.
