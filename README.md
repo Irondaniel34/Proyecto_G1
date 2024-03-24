@@ -232,6 +232,8 @@ Una vez que se obtuvo la secuencia consenso, se transformó las secuancias a for
 ![Imagen10Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy8.png)
 
 ## 5.5 BLAST en NCBI 
+
+### 5.5.1  BLAST mediante Galaxy Europe
 Para la identificación y clasificación de amplicones de ITS de hongos se usó la plataforma BLAST (Basic Local Alignment Search Tool) de NCBI 
 Link: https://blast.ncbi.nlm.nih.gov/Blast.cgi
 , y se configuró las características de búsqueda
@@ -253,17 +255,25 @@ for file in Fasta/*.fasta; do # Realiza en bucle de todos los archivos con exten
 cat "$file" >> ITS_SC.fasta # Con cat permite obtener un concatenado que se nombrará ITS_SC.fasta
 done
 ```
-#### Obtención de FASTA concatenado con las secuencias consenso.
+
+Obtención de FASTA concatenado con las secuencias consenso.
+
 ![Imagen12Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/cat%20FASTA.jpg?raw=true)
 ![Imagen13Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/concatenado%20FASTA.jpg?raw=true)
-###### Consolidado de secuencias.
 
-#### Este archivo fue cargado en el BLAST del NCBI. Lo cuál nos entregó los resultados como se aprecia:
+Consolidado de secuencias.
+Este archivo fue cargado en el BLAST del NCBI. Lo cuál nos entregó los resultados como se aprecia:
+
 ![Imagen14W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/blasteo.jpg?raw=true)
 ![Imagen15W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/blast2.jpg?raw=true)
 ![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/blast3.jpg?raw=true)
-#### Se hizo el BLAST de múltiples secuencies, para múltiples especies, las cuáles se fueron clasificando en la siguiente tabla:
 
-# INSERTAR TABLA
+Se hizo el BLAST de múltiples secuencies, para múltiples especies, las cuáles se fueron clasificando en la siguiente tabla:
+
+| Nombre     | Edad | Ciudad   |
+|------------|------|----------|
+| Juan       | 25   | Madrid   |
+| María      | 30   | Barcelona|
+| Carlos     | 28   | Valencia |
 
 
