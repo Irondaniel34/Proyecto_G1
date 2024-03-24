@@ -146,9 +146,13 @@ Esto fue realizado en las dos carpetas que contenian archivos *.ab1*, el directo
 ## 5.2  Informe de calidad FASTQc
 
 ### 5.2.1  Informe de calidad mediante Galaxy Europe
+Con las secuencias en formato FastQ, se realizó el análisis para el control de calidad de las secuencias en FastQC
+![Imagen3_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy4.png)
 
+Según el informe de calidad obtenido, se analizan las secuencias y se opta por relizar un corte para mejorar la calidad de las mismas. 
+![Imagen3_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy4.png)
 
-### 5.2.1  Informe de calidad mediante terminal de Linux
+### 5.2.2  Informe de calidad mediante terminal de Linux
 
 Se efectuó el análisis de calidad de las secuencias mediante la herramienta FASTQc, que se ejecutó mediante línea de comando de Linux. 
 Para ello, se tuvo que primero instalar el paquete *FASTQc* en la terminal utilizando el siguiente comando:
@@ -170,18 +174,21 @@ Archivos *.html* en carpeta creada.
 ![Imagen7_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/fasqcWEB.jpg?raw=true)
 Visualización de FASTQc mediante archivo *.html*
 
-## Trimmomatic 
 
-#### También se efectuó la herramienta *Trimmomatic* por medio de línea de comando de Linux, se tomó esta decisión al ver que mediante otras plataformas existía problemas al cargar los archivos.
+## 5.3 Trimmomatic 
+### 5.3.1  Informe de calidad mediante Galaxy Europe
 
-#### Para la realización de los cortes de trimmomatic, se consultó a la inteligencia artificial, la cuál indicó:
-#### Descargar la aplicación de Trimmomatic de la página oficial.
-#### Página web de la herramienta Trimmomatic
+### 5.3.2  Informe de calidad mediante terminal de Linux
+También se efectuó la herramienta *Trimmomatic* por medio de línea de comando de Linux, se tomó esta decisión al ver que mediante otras plataformas existía problemas al cargar los archivos.
+Para la realización de los cortes de trimmomatic, se consultó a la inteligencia artificial, la cuál indicó:
+
+Descargar la aplicación de Trimmomatic de la página oficial.
+**Nota:** Página web de la herramienta Trimmomatic
 ![Imagen8Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/P%C3%A1gina%20de%20descarga%20de%20trimo.jpg?raw=true)
 [USADELLAB.org](http://www.usadellab.org/cms/index.php?page=trimmomatic)
-###### Link de descarga
+**Nota:** Link de descarga
 
-#### Se ejecutó el comando de descarga y tras lo cual se efectuó un unzip del archivo descargado usando:
+Se ejecutó el comando de descarga y tras lo cual se efectuó un unzip del archivo descargado usando:
 ```
 wget http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.zip
 unzip Trimmomatic-0.39.zip
