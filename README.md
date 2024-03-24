@@ -6,21 +6,21 @@
 **Fecha:**  marzo 2024
 
 # 1.  Problema
-Los hongos, estimados en 1,5 millones de especies y ubicados en casi todos los ecosistemas terrestres, desempeñan roles ecológicos clave, como la descomposición de materia orgánica y la simbiosis con plantas. En Ecuador, el estudio y la caracterización de la diversidad fúngica son especialmente relevantes debido a su ubicación geográfica diversa y sus ecosistemas únicos. Sin embargo, su estudio se ve obstaculizado por su naturaleza efímera y la dificultad para identificar especies a partir de sus estructuras visibles. En particular, en la Hacienda "El Prado"-IASA I, no se ha caracterizado la microbiota fúngica de los suelos, y debido a que los cuerpos fructíferos similares a menudo representan varias especies distintas, se subraya la necesidad de abordajes moleculares centrados en el estudio de la región espaciadora transcrita interna (ITS), para así, obtener datos en cuanto a su taxonomía a nivel de género y subgénero.
+#### Los hongos, estimados en 1,5 millones de especies y ubicados en casi todos los ecosistemas terrestres, desempeñan roles ecológicos clave, como la descomposición de materia orgánica y la simbiosis con plantas. En Ecuador, el estudio y la caracterización de la diversidad fúngica son especialmente relevantes debido a su ubicación geográfica diversa y sus ecosistemas únicos. Sin embargo, su estudio se ve obstaculizado por su naturaleza efímera y la dificultad para identificar especies a partir de sus estructuras visibles. En particular, en la Hacienda "El Prado"-IASA I, no se ha caracterizado la microbiota fúngica de los suelos, y debido a que los cuerpos fructíferos similares a menudo representan varias especies distintas, se subraya la necesidad de abordajes moleculares centrados en el estudio de la región espaciadora transcrita interna (ITS), para así, obtener datos en cuanto a su taxonomía a nivel de género y subgénero.
 
 # 2.  Antecedentes
-La ausencia de estudios previos sobre la microbiota fúngica en los suelos del sector de Horticultura y Fruticultura de la Hacienda “El Prado” - IASA I, ubicada en la provincia Pichincha, cantón Rumiñahui, parroquia Sangolquí, destaca la necesidad de realizar esta investigación. Un proyecto que implica la evaluación pionera de la diversidad de hongos filamentosos, principalmente en aquellos con potencial benéfico para la biorrecuperación de los suelos. 
+#### La ausencia de estudios previos sobre la microbiota fúngica en los suelos del sector de Horticultura y Fruticultura de la Hacienda “El Prado” - IASA I, ubicada en la provincia Pichincha, cantón Rumiñahui, parroquia Sangolquí, destaca la necesidad de realizar esta investigación. Un proyecto que implica la evaluación pionera de la diversidad de hongos filamentosos, principalmente en aquellos con potencial benéfico para la biorrecuperación de los suelos. 
 
 # 3.  Objetivos
 
 ## 3.1  Objetivo general
-Analizar los datos metagenómicos de las regiones ITS amplificadas de hongos filamentosos utilizando herramientas bioinformáticas.
+#### Analizar los datos metagenómicos de las regiones ITS amplificadas de hongos filamentosos utilizando herramientas bioinformáticas.
 
 ## 3.2  Objetivos específicos
 
-* Realizar el control de calidad de los datos crudos de secuencia de las regiones ITS por medio de la herramienta FASTQc en terminal de Linux.
-* Identificar molecularmente a las especies de hongos filamentosos mediante un BLASTN del NCBI.
-* Extraer la información taxonómica con la alineación de las secuencias consenso mediante MSA en T-coffee y analizarla en la plataforma Galaxy Europe. 
+#### * Realizar el control de calidad de los datos crudos de secuencia de las regiones ITS por medio de la herramienta FASTQc en terminal de Linux.
+#### * Identificar molecularmente a las especies de hongos filamentosos mediante un BLASTN del NCBI.
+#### * Extraer la información taxonómica con la alineación de las secuencias consenso mediante MSA en T-coffee y analizarla en la plataforma Galaxy Europe. 
 
 # 4.  Flujograma de trabajo
 
@@ -29,11 +29,11 @@ Analizar los datos metagenómicos de las regiones ITS amplificadas de hongos fil
 # 5.  Análisis de datos
 
 ## 5.1  Importación y preprocesamiento de los datos 
-Los datos crudos provienen de muestras de hongos filamentosos asociados al suelo de la Hacienda "El Prado", los cuales fueron aislados en laboratorio para posteriormente ser identificados molecularmente mediante la secuenciación por el método Sanger y el análisis de la región ITS amplificada con los primers ITS1 (TCCGTAGGTGAACCTGCGG) e ITS4 (TCCTCCGCTTATTGATATGC) reportados por White et al. (1990).
-Se realizó la importación de la data procediente del secuenciador en formato *.ab1*. Por lo cual, previo al análisis de calidad es necesario realizar la conversión al formato *.fastq*, la misma que puede realizarse mediante el uso de BioPhyton (a través de Google Colab), usando la plataforma Galaxy Europe o mediante el uso de la terminal del sistema operativo Linux, de acuerdo con la siguiente metodología:
+#### Los datos crudos provienen de muestras de hongos filamentosos asociados al suelo de la Hacienda "El Prado", los cuales fueron aislados en laboratorio para posteriormente ser identificados molecularmente mediante la secuenciación por el método Sanger y el análisis de la región ITS amplificada con los primers ITS1 (TCCGTAGGTGAACCTGCGG) e ITS4 (TCCTCCGCTTATTGATATGC) reportados por White et al. (1990).
+#### Se realizó la importación de la data procediente del secuenciador en formato *.ab1*. Por lo cual, previo al análisis de calidad es necesario realizar la conversión al formato *.fastq*, la misma que puede realizarse mediante el uso de BioPhyton (a través de Google Colab), usando la plataforma Galaxy Europe o mediante el uso de la terminal del sistema operativo Linux, de acuerdo con la siguiente metodología:
 
 ### 5.1.1  Conversión de secuencias mediante BioPhyton
-La conversión de secuencias en BioPhyton se realizó en dos fases; la primera que consistió en la carga de los archivos *.ab1* dentro de una carpeta dada por el usuario, de acuerdo con el siguiente código:
+#### La conversión de secuencias en BioPhyton se realizó en dos fases; la primera que consistió en la carga de los archivos *.ab1* dentro de una carpeta dada por el usuario, de acuerdo con el siguiente código:
 ```
 # Creación de la carpeta de entrada dentro del directorio "content"
 import os
@@ -55,12 +55,12 @@ for filename in ITS_files:
     dst = os.path.join(carpeta_entrada_path, filename)
     shutil.move(src, dst)
 ```
-Al carga de archivos .ab1 se muestra a continuación:
+#### La carga de archivos .ab1 se muestra a continuación:
 
 ![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/dc9492430763dcff0a7347c0b3520ad188615f7b/Capturas_de_pantalla/Biophyton_carga%20de%20archivos%20ab1.jpg)
 
 
-La segunda fase consistió en la conversión de las secuencias a formato *.fastq* para lo cual se utilizó el siguiente código:
+#### La segunda fase consistió en la conversión de las secuencias a formato *.fastq* para lo cual se utilizó el siguiente código:
 ```
 # Instalación de Biophyton e importación de paquetes
 !pip install biopython
@@ -99,11 +99,11 @@ print(f"Archivos convertidos y guardados en el directorio: {output_folder_path}"
 !zip -r {output_folder}.zip {output_folder_path}
 files.download(f"{output_folder}.zip")
 ```
-La conversión realizada de los archivos *.ab1* a *.fastq* mientras el código se encuentra corriendo en Biophyton se muestra a continuación:
+#### La conversión realizada de los archivos *.ab1* a *.fastq* mientras el código se encuentra corriendo en Biophyton se muestra a continuación:
 
 ![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/dc9492430763dcff0a7347c0b3520ad188615f7b/Capturas_de_pantalla/Biophyton_conversi%C3%B3n%20de%20archivos%20ab1%20a%20fastq.jpg)
 
-El cuaderno de Google Colab se puede encontrar en el siguiente documento: [Proyecto_final_G1_ab1_to_fastq.ipynb](https://github.com/Irondaniel34/Proyecto_G1/blob/a27b121c371726325dae74519bc4dcacb4aa3c32/Proyecto_final_G1_ab1_to_fastq.ipynb)
+#### El cuaderno de Google Colab se puede encontrar en el siguiente documento: [Proyecto_final_G1_ab1_to_fastq.ipynb](https://github.com/Irondaniel34/Proyecto_G1/blob/a27b121c371726325dae74519bc4dcacb4aa3c32/Proyecto_final_G1_ab1_to_fastq.ipynb)
 
 ### 5.1.2  Conversión de secuencias mediante Galaxy Europe
 
@@ -143,7 +143,9 @@ seqret -sequence $file -outseq ITS_fastq1/$(basename $file .ab1).fastq -osformat
 
 ###### Esto fue realizado en las dos carpetas que contenian archivos *.ab1*, el directorio ITS1 e ITS4.
 
-## FASTQc
+## 5.2    Control de calidad de las secuencias 
+
+### 5.2.1    Análisis en FASTQc
 #### Se efectuó el análisis de calidad de las secuencias mediante la herramienta FASTQc, que se ejecutó mediante línea de comando de Linux. 
 #### Para ello, se tuvo que primero instalar el paquete *FASTQc* en la terminal utilizando el siguiente comando:
 ```
@@ -164,7 +166,7 @@ fastqc ITS_fastq1/*.fastq -o ITS_fastqc1 # Todos los archivos dentro de la carpe
 ![Imagen7_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/fasqcWEB.jpg?raw=true)
 ###### Visualización de FASTQc mediante archivo *.html*
 
-## Trimmomatic 
+### 5.2.1    Recorte de secuencias en Trimmomatic 
 
 #### También se efectuó la herramienta *Trimmomatic* por medio de línea de comando de Linux, se tomó esta decisión al ver que mediante otras plataformas existía problemas al cargar los archivos.
 
@@ -199,7 +201,23 @@ done
 ![Imagen11Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/ls%20trimo.jpg?raw=true)
 
 ###### Nota: A las secuencias resultantes se les volvió a aplicar un control de calidad con FASTQc y se descartaron 7 secuencias que no cumplieron  con los estándares de los autores.
+![Imagen1Fastqc](https://github.com/Irondaniel34/Proyecto_G1/blob/a34be7ad09072a06a515c51272a31b035ca81801/Capturas_de_pantalla/Fastqc_Secuencias%20baja%20calidad%20descartadas.jpg)
+
 #### Las secuencias finales se utilizaron en la plataforma Galaxy Europe para la realización de la secuencia consenso.
+
+## 5.3    Obtención de secuencias consenso
+
+### 5.3.1    Preparación de la colección de secuencias pareadas ITS1 e ITS4
+
+#### Se importaron los datos de las secuencias ITS1 e ITS4 en el área de *Collection* seleccionando en los parámetros: de tipo de colección: *List of Pairs* y en tipo de archivo *fastqsanger*:
+![Imagen1Colección](https://github.com/Irondaniel34/Proyecto_G1/blob/ad01d8cd195e91146fe2198a9e6b1327b32e73b0/Capturas_de_pantalla/Coleccion_1.jpg)
+
+#### Se configuraron los parámetros para que las archivos con el prefijo trimmed_ITS1- y trimmed_ITS4- sean reconocidos como lecturas forward y reverse, respectivamente: 
+![Imagen2Colección](https://github.com/Irondaniel34/Proyecto_G1/blob/ad01d8cd195e91146fe2198a9e6b1327b32e73b0/Capturas_de_pantalla/Coleccion_2.jpg)
+
+#### Se editó los atributos de la colección ITS para el tipo de archivo *fastqsanger*
+![Imagen3Colección](https://github.com/Irondaniel34/Proyecto_G1/blob/ad01d8cd195e91146fe2198a9e6b1327b32e73b0/Capturas_de_pantalla/Coleccion_3.jpg)
+
 
 
 
