@@ -143,7 +143,13 @@ seqret -sequence $file -outseq ITS_fastq1/$(basename $file .ab1).fastq -osformat
 
 ###### Esto fue realizado en las dos carpetas que contenian archivos *.ab1*, el directorio ITS1 e ITS4.
 
-## FASTQc
+## 5.2  Informe de calidad FASTQc
+
+### 5.2.1  Informe de calidad mediante Galaxy Europe
+
+
+### 5.2.1  Informe de calidad mediante terminal de Linux
+
 #### Se efectuó el análisis de calidad de las secuencias mediante la herramienta FASTQc, que se ejecutó mediante línea de comando de Linux. 
 #### Para ello, se tuvo que primero instalar el paquete *FASTQc* en la terminal utilizando el siguiente comando:
 ```
