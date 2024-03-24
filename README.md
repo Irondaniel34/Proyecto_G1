@@ -177,12 +177,12 @@ Visualización de FASTQc mediante archivo *.html*
 
 
 ## 5.3 Trimmomatic 
-### 5.3.1  Informe de calidad mediante Galaxy Europe
+### 5.3.1  Trimmomatic mediante Galaxy Europe
 Dado que algunas secuencias presentaban una calidad deficiente, se procedió a realizar un filtrado utilizando la herramienta Trimmomatic.
 ![Imagen3_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy6.png)
-
 Se procedió de inmediato a ejecutar un informe de calidad para cada una de estas secuencias utilizando FastQC. Se verificó que la calidad había mejorado significativamente, lo que permitió avanzar sin contratiempos en el proceso.
-### 5.3.2  Informe de calidad mediante terminal de Linux
+
+### 5.3.2  Trimmomatic mediante terminal de Linux
 También se efectuó la herramienta *Trimmomatic* por medio de línea de comando de Linux, se tomó esta decisión al ver que mediante otras plataformas existía problemas al cargar los archivos.
 Para la realización de los cortes de trimmomatic, se consultó a la inteligencia artificial, la cuál indicó:
 
