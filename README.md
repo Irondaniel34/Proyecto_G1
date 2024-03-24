@@ -38,3 +38,24 @@ Analizar los datos metagenómicos de las regiones ITS amplificadas de hongos fil
 
 ### Mediante terminal de Linux
 
+#### Se descargan los datos crudos del secuenciador en la máquina virtual, estos vienen en un archivo comprimido *.zip*, para lo cual se usa el comando: 
+```
+unzip nombre_del_archivo.zip
+```
+![Imagen1_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Linux1.jpg)
+
+#### Para continuar con el procesamiento de las secuencias se tiene que pasar de un archivo *.ab1* a *.fastq* para lo cual se utilizaron los siguientes comandos:
+```
+sudo apt install emboss # para instalar el paquete EMBOSS, que contienen la herramienta SEQRET que nos permite el paso de .ab1 a .fastq
+```
+![Imagen2_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/instalaci%C3%B3n%20emboss.jpg)
+#### **Nota:** *El paquete EMBOSS fue previamente instalado, es por eso que no sale el mensaje tradicional de su instalación*
+```
+mkdir ITS_fastq1 # para crear la carpeta de salida de los archivos FASTQ.
+for file in ITS1/*.ab1;do # para realizar un bucle, en el que los archivos dentro de la carpeta ITS1 que tengan la extensión AB1, realicen la conversión
+seqret -sequence $file -outseq ITS_fastq1/$(basename $file .ab1).fastq -osformat2 fastq # comando de la conversión de .ab1 a .fastq.
+done
+```
+![Imagen3_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/ab12fastq.jpg)
+
+#### Esto fue realizado en las dos carpetas que contenian archivos *.ab1*, el directorio ITS1 e ITS4.
