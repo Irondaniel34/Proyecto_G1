@@ -233,10 +233,14 @@ Una vez que se obtuvo la secuencia consenso, se transformó las secuancias a for
 
 ## 5.5 BLAST en NCBI 
 Para la identificación y clasificación de amplicones de ITS de hongos se usó la plataforma BLAST (Basic Local Alignment Search Tool) de NCBI 
-Link: https://blast.ncbi.nlm.nih.gov/Blast.cgi 
-Y se configuró las características de búsqueda
+Link: https://blast.ncbi.nlm.nih.gov/Blast.cgi
+, y se configuró las características de búsqueda
 
-![Imagen10Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy8.png)
+![Imagen10Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy9.png)
+
+Se corrieron todas las secuencias en conjunto y los resultados se pudieron visulizar de manera individual. 
+
+![Imagen10Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy10.png)
 
 ### 5.5.2  BLAST mediante terminal de Linux
 Unión archivos FASTA
