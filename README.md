@@ -270,10 +270,10 @@ Este archivo fue cargado en el BLAST del NCBI. Lo cuál nos entregó los resulta
 
 Se hizo el BLAST de múltiples secuencies, para múltiples especies, las cuáles se fueron clasificando en la siguiente tabla:
 
-| Nombre     | Edad | Ciudad   |
-|------------|------|----------|
-| Juan       | 25   | Madrid   |
-| María      | 30   | Barcelona|
-| Carlos     | 28   | Valencia |
+| Nombre     | Edad | Ciudad   | Nombre  |    
+|------------|------|----------|---------|
+| Juan       | 25   | Madrid   |Madrid   |
+| María      | 30   | Barcelona|Barcelona|
+| Carlos     | 28   | Valencia |alencia  |
 
 
