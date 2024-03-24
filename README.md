@@ -222,13 +222,10 @@ Este comando creó un directorio (F1T) al cual salieron las nuevas secuencias co
 **Nota:** A las secuencias resultantes se les volvió a aplicar un control de calidad con FASTQc y se descartaron 7 secuencias que no cumplieron  con los estándares de los autores.
 Las secuencias finales se utilizaron en la plataforma Galaxy Europe para la realización de la secuencia consenso.
 
+## 5.4 Obtención de Secuencias Consenso mediante Galaxy Europe
+Con la asistencia de la plataforma Galaxy, se logró generar secuencias consenso, lo que proporcionó una representación precisa y confiable de la región de interés de los amplicones.
 
-
-
-
-
-
-
+![Imagen10Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy7.png)
 
 
 
