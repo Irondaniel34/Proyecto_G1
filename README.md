@@ -38,6 +38,10 @@ Se cargaron en modo de colección los datos en formato ab1 tanto para ITS1 e ITS
 
 ![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy1)
 
+Se construyeron las secuencias 
+
+![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy2)
+
 ### Mediante terminal de Linux
 
 #### Se descargan los datos crudos del secuenciador en la máquina virtual, estos vienen en un archivo comprimido *.zip*, para lo cual se usa el comando: 
