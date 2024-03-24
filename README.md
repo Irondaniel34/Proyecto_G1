@@ -1,4 +1,4 @@
-# Análisis de datos metagenómicos de regiones ITS de hongos filamentosos asociados al suelo de la Hacienda "El Prado" - Sangolquí </center>
+# Análisis de datos metagenómicos de regiones ITS de hongos filamentosos asociados al suelo de la Hacienda "El Prado" - Sangolquí 
 
 **Autores:** 
 **Ing. Almeida Stefany**, **Ing. Córdova Daniel** y **Ing. Drouet Ariana**
