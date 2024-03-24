@@ -26,6 +26,7 @@ Analizar los datos metagenómicos de las regiones ITS amplificadas de hongos fil
 
 ![Flujograma](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Trabajo_final_flujograma.jpg?raw=true)
 
+## Metodología 
 
 ### DATOS 
 ### Los datos crudos fueron obtenidos de un Secuenciador Sanger. Las amplificaciones fueron realizados con primers para ITS1 e ITS4. 
