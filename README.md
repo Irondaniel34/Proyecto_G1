@@ -231,38 +231,19 @@ Una vez que se obtuvo la secuencia consenso, se transformó las secuancias a for
 
 ![Imagen10Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy8.png)
 
+## 5.5 BLAST en NCBI 
+Para la identificación y clasificación de amplicones de ITS de hongos se usó la plataforma BLAST (Basic Local Alignment Search Tool) de NCBI 
+Link: https://blast.ncbi.nlm.nih.gov/Blast.cgi 
+Y se configuró las características de búsqueda
 
+![Imagen10Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy8.png)
 
+### 5.5.2  BLAST mediante terminal de Linux
+Unión archivos FASTA
+Para el *blasteo* de multiples especies en el NCBI se necesitaba realizar un archivo *.fasta* concatenado con todas las secuencias. Motivo por el que se usó la terminal de Linux para unificar los numerosos archivos *.fasta*. 
 
+Esto se realizó utilizando los siguientes comandos:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### BLAST EN NCBI
-#### Unión archivos FASTA
-#### Para el *blasteo* de multiples especies en el NCBI se necesitaba realizar un archivo *.fasta* concatenado con todas las secuencias. Motivo por el que se usó la terminal de Linux para unificar los numerosos archivos *.fasta*. 
-#### Esto se realizó utilizando los siguientes comandos:
 ```
 for file in Fasta/*.fasta; do # Realiza en bucle de todos los archivos con extensión .fasta
 cat "$file" >> ITS_SC.fasta # Con cat permite obtener un concatenado que se nombrará ITS_SC.fasta
