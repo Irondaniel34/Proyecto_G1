@@ -109,7 +109,7 @@ El cuaderno de Google Colab se puede encontrar en el siguiente documento: [Proye
 
 Se cargaron en modo de colección los datos en formato ab1 tanto para ITS1 e ITS4.
 
-![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy1)
+![Imagen1_galaxy](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy1.png)
 
 Se construyeron las secuencias 
 
