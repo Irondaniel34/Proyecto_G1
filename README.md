@@ -28,6 +28,12 @@ Analizar los datos metagenómicos de las regiones ITS amplificadas de hongos fil
 
 ## Metodología 
 
+### Plataforma Galaxy
+Se cargaron en modo de colección los datos en formato ab1 tanto para ITS1 e ITS4.
+
+![Imagen1_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Linux1.jpg)
+
+
 ### DATOS 
 ### Los datos crudos fueron obtenidos de un Secuenciador Sanger. Las amplificaciones fueron realizados con primers para ITS1 e ITS4. 
 ### Se realizó la importación de la data procediente del secuenciador en formato *.ab1* 
