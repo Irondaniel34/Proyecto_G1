@@ -233,18 +233,7 @@ Una vez que se obtuvo la secuencia consenso, se transformó las secuancias a for
 
 ## 5.5 BLAST en NCBI 
 
-### 5.5.1  BLAST mediante Galaxy Europe
-Para la identificación y clasificación de amplicones de ITS de hongos se usó la plataforma BLAST (Basic Local Alignment Search Tool) de NCBI 
-Link: https://blast.ncbi.nlm.nih.gov/Blast.cgi
-, y se configuró las características de búsqueda
-
-![Imagen10Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy9.png)
-
-Se corrieron todas las secuencias en conjunto y los resultados se pudieron visulizar de manera individual. 
-
-![Imagen10Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy10.png)
-
-### 5.5.2  BLAST mediante terminal de Linux
+### 5.5.1  Obtención archivo MultiFasta y BLAST en NCBI 
 Unión archivos FASTA
 Para el *blasteo* de multiples especies en el NCBI se necesitaba realizar un archivo *.fasta* concatenado con todas las secuencias. Motivo por el que se usó la terminal de Linux para unificar los numerosos archivos *.fasta*. 
 
@@ -266,7 +255,7 @@ Este archivo fue cargado en el BLAST del NCBI. Lo cuál nos entregó los resulta
 
 ![Imagen14W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/blasteo.jpg?raw=true)
 ![Imagen15W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/blast2.jpg?raw=true)
-
+![Imagen10Linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy10.png)
 
 Se hizo el BLAST de múltiples secuencies, para múltiples especies, las cuáles se fueron clasificando en la siguiente tabla:
 
