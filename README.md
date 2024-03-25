@@ -218,46 +218,25 @@ done
 #### Se editó los atributos de la colección ITS para el tipo de archivo *fastqsanger*
 ![Imagen3Colección](https://github.com/Irondaniel34/Proyecto_G1/blob/ad01d8cd195e91146fe2198a9e6b1327b32e73b0/Capturas_de_pantalla/Coleccion_3.jpg)
 
+#### Colección de archivos en formato *.fastq* pareados en Galaxy 
 
+![Imagen4Colección](https://github.com/Irondaniel34/Proyecto_G1/blob/adeb62d070629b957acd133be9966fa576264b04/Capturas_de_pantalla/Coleccion_4.jpg)
 
+### 5.3.2    Obtención de secuencias consenso ITS
 
+#### Se ejecutó la herramienta *PEAR* utilizando la colección pareada ITS como entrada con el objetivo de obtener las secuencias ensambladas.
+![ImagenConsenso](https://github.com/Irondaniel34/Proyecto_G1/blob/32d209c86518699ad4fbfa3ccc51290bfb70a33b/Capturas_de_pantalla/Consenso.jpg)
 
+### 5.3.3    Conversión de secuencias consenso ITS a formato *.fasta*
 
+#### Con el objetivo de identificar molecularmente las secuencias utilizando la herramienta BLASTn del NCBI se ejecutó la herramienta *FASTQ to FASTA* utilizando la colección se secuencias consenso *Pear on collection: Assembled reads*.
+![Imagen1FASTQtoFASTA](https://github.com/Irondaniel34/Proyecto_G1/blob/d61a5c7200c5181f54400531fe90bc10fa86adb2/Capturas_de_pantalla/Fastq_to_FASTA_1.jpg)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### Las secuencias obtenidas en formato *.fasta* se muestran a continuación:
+![Imagen1FASTQtoFASTA](https://github.com/Irondaniel34/Proyecto_G1/blob/d61a5c7200c5181f54400531fe90bc10fa86adb2/Capturas_de_pantalla/Fastq_to_FASTA_2.jpg)
 
 ### BLAST EN NCBI
+
 #### Unión archivos FASTA
 #### Para el *blasteo* de multiples especies en el NCBI se necesitaba realizar un archivo *.fasta* concatenado con todas las secuencias. Motivo por el que se usó la terminal de Linux para unificar los numerosos archivos *.fasta*. 
 #### Esto se realizó utilizando los siguientes comandos:
