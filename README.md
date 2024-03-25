@@ -267,8 +267,6 @@ Este archivo fue cargado en el BLAST del NCBI. Lo cuál nos entregó los resulta
 ![Imagen14W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/blasteo.jpg?raw=true)
 ![Imagen15W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/blast2.jpg?raw=true)
 
-De esta manera se obtuvo en formato FASTA las secuencias alineadas, mismo que se descargó para continuar con el proceso de análisis en la plataforma de Galaxy Europe
-![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy13.png)
 
 Se hizo el BLAST de múltiples secuencies, para múltiples especies, las cuáles se fueron clasificando en la siguiente tabla:
 
@@ -283,9 +281,15 @@ Con el fin de analizar la biodiversidad y la filogenia de los hongos, se optó p
 
 ![Imagen14W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy11.png)
 ![Imagen14W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy12.png)
-![Imagen14W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy12.png)
+
+De esta manera se obtuvo en formato FASTA las secuencias alineadas, mismo que se descargó para continuar con el proceso de análisis en la plataforma de Galaxy Europe
+![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy13.png)
+
 ## 5.7 Clasificación taxonómica en Galaxy Europe 
-Una Kraken 2 es una herramienta de clasificación taxonómica que se utiliza comúnmente en bioinformática para identificar la composición taxonómica de muestras metagenómicas utilizando secuencias de ADN. Si estás interesado en usar Kraken 2 para analizar muestras de hongos (fungi), aquí hay algunos pasos básicos que puedes seguir:
+Se cargó el archivo en formato FASTA obtenido del alineamiento múltiple en la plataforma de T-Coffee. 
+![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy14.png)
+
+Después con ayuda de la herramienta Kraken2, se obtuvo la clasificación taxonómica 
 
 
 ## 5.8 Visualización 
