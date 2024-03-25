@@ -395,5 +395,9 @@ Dado que los resultados obtenidos con la herramienta kraken2 se transformaron en
 #### - Se identificó molecularmente las diferentes especies de hongos filamentosos con un porcentaje de identidad mayor al 99%, con un E value de 0.0, entre los cuales los géneros más abundantes fueron *Trichoderma*, *Fusarium* y *Mucor* fueron los más abundantes de entre la población.
 #### - Se extrajo la información taxonómica de las secuencias mediante el uso de plataformas como Kraken2 y la herramienta Krona Pie Chart del Galaxy Europe.
 
-## Recomendaciones
-## 7. Referencias
+## 7. Recomendaciones
+#### - El uso de la terminal de Linux proporciona un control sobre el sistema operativo que facilita realizar tareas complejas de manera eficiente y rápida, a comparación del uso de la plataforma Galaxy Europe.
+#### - Descartar las secuencias que presenten problemas durante la corrida del FastQC en el control de calidad, para así, garantizar la calidad óptima de los datos analizados en la plataforma Galaxy, permitiendo que avance la corrida de datos de manera adecuada en posteriores análisis.
+
+
+## 8. Referencias
