@@ -247,110 +247,36 @@ Este archivo fue cargado en el BLAST del NCBI. Lo cuál nos entregó los resulta
 
 Se hizo el BLAST de múltiples secuencies, para múltiples especies, las cuáles se fueron clasificando en la siguiente tabla:
 
-Identificación 	Género / Especie	#Acceso	E value	%
-ITS1-10	Fusarium oxysporum	MT276045.1 
-0.0	100
-ITS1-11	Clonostachys rosea	MN452687.1
-0.0	99.34
-ITS1-12	Trichoderma atroviride	MT514373.1
-0.0	99.80
-ITS1-13	Fusarium oxysporum	MT276045.1
-0.0	99.77
-ITS1-14	Mucor moelleri	MN270302.1
-0.0	100
-ITS1-1	Mucor circinelloides	JF723599.1
-0.0	98.70
-ITS1-24	Trichoderma atroviride	MT514373.1
-0.0	99.80
-ITS1-28	Trichoderma atroviride	MT514373.1
-0.0	100
-ITS1-29	Fusarium ramigenum	MH980135.1
-0.0	100
-ITS1-2	Mucor circinelloides	JF723599.1
-0.0	99.43
-ITS1-32	Mucor hiemalis	MT366055.1
-0.0	99.28
-ITS1-34	Fusarium ramigenum	MH980135.1
-0.0	100
-ITS1-35	Trichoderma hamatum	PP464109.1
-0.0	100
-ITS1-36	Fusarium circinatum	MT464451.1
-0.0	99.77
-ITS1-37	Fusarium oxysporum	PP453660.1
-0.0	100
-ITS1-38	Trichoderma atroviride	MT514373.1
-0.0	100
-ITS1-39	Clonostachys solani	AF358243.1
-0.0	100
-ITS1-42	Xylariales sp.	KT269510.1
-0.0	98.36
-ITS1-44	Mucor janssenii	MH855051.1
-0.0	99.64
-ITS1-4	Clonostachys divergens	OQ910570.1
-0.0	100
-ITS1-5	Fusarium equiseti	PP464187.1
-0.0	99.77
-ITS1-7	Chaetomium cochliodes	MT561402.1
-0.0	99.15
-ITS1-8	Minimedusa polyspora	MH859968.1
-0.0	99.30
-ITS1-9	Trichoderma hamatum	MT271927.1
-0.0	100
-ITS1-A	Clonostachys rosea	OQ513907.1
-0.0	100
-ITS1-BB	Trichoderma asperellum	LC123601.1
-0.0	99.79
-ITS1-CC	Mucor sp.	ON209714.1
-0.0	96.87
-ITS1-C	Mucor sp.	MK164211.1
-0.0	99.81
-ITS1-D	Fusarium culmorum	MT640271.1
-0.0	100
-ITS1-E	Fusarium equiseti	MN135744.1	0.0	100
-ITS1-F	Mortierella sp.	MF423582.1	0.0	100
-ITS1-I	Trichoderma asperelloides	PP336494.1	0.0	100
-ITS1-J	Fusarium equiseti	PP464187.1 	0.0	100
-ITS1-K	Trichoderma sp	OP999633.1	0.0	99.80
-ITS1-L	Clonostachys rosea	MN452687.1	0.0	99.34
-ITS1-M	Clonostachys sp.	OM106429.1	0.0	99.57
-ITS1-N	Clonostachys solani	OQ910839.1	0.0	100
-ITS1-NN	Trichoderma koningiopsis	OM574767.1	0.0	100
-ITS1-O	Trichoderma sp.	PP464108.1	0.0	99.80
-ITS1-Q	 Trichoderma sp.	MT740343.1	0.0	100
-ITS1-R10	Absidia sp.	KU923829.1 	0.0	98.35
-ITS1-R12	Fusarium culmorum	MT640271.1 	0.0	100
-ITS1-R13	Monocillium sp.	 LC433827.1 	0.0	99.8
-ITS1-R14	Mucor sp.	MT762712.1	0.0	100
-ITS1-R16	Fusarium sp.	MT276045.1 	0.0	99.77
-ITS1-R18	Fusarium graminearum	OQ979826.1	0.0	100
-ITS1-R19	Trichoderma sp.	MN522765.1 	0.0	99.6
-ITS1-R1	Epicoccum nigrum	PP469495.1	0.0	100
-ITS1-R20	Fusarium graminearum	OQ979826.1 	0.0	100
-ITS1-R21	Fusarium culmorum	MT640271.1	0.0	100
-ITS1-R22	Trichoderma sp.	MN522765.1 	0.0	100
-ITS1-R24	Trichoderma atroviride	MZ568323.1	0.0	100.00
-ITS1-R25	Trichoderma sp.	MK870863.1	0.0	99.8
-ITS1-R26	Trichoderma atrobrunneum	PP385058.1	0.0	99.81
-ITS1-R27	Mucor moelleri	MG214587.1	0.0	99.17
-ITS1-R28	Poculum sp.	KF725734.1	0.0	99.14
-ITS1-R29	Clonostachys rhizophaga	OQ910695.1	0.0	99.78
-ITS1-R2	Fusarium oxysporum	MT276045.1	0.0	100.00
-ITS1-R31	Fusarium equiseti	PP464187.1	0.0	99.55
-ITS1-R33	Fusarium oxysporum	PP437857.1	0.0	100.00
-ITS1-R34	Mucor hiemalis	LC413619.1	0.0	99.29
-ITS1-R35	Mucor circinelloides	OP597934.1	0.0	100.00
-ITS1-R36	Penicillium camemberti	MT529802.1		0.0	100.00
-ITS1-R3	Irpex laceratus	LC431580.1	0.0	97.81
-ITS1-R4	Pseudopithomyces chartarum	MN077447.1	0.0	99.41
-ITS1-R5	Trichoderma spirale	KX858890.1	0.0	99.61
-ITS1-R6	Lecanicillium cf. psalliotae	AB517935.1	0.0	99.71
-ITS1-R7	Clonostachys rosea	MK304207.1	0.0	100.00
-ITS1-R8	Fusarium graminearum	ON024849.1	0.0	100.00
-ITS1-R	Trichoderma sp.	MT514373.1	0.0	100.00
-ITS1-T	Trichoderma asperellum		OL868970.1	0.0	100.00
-ITS1-U	Trichoderma koningiopsis	OM574767.1	0.0	100.00
-ITS1-W	Trichoderma asperellum	PP464108.1	0.0	100.00
-ITS1-X	Trichoderma koningiopsis	KC428393.1	0.0	99.40
+|Identificación | Género/Especie | # de Acceso |E value|   %|
+|-------------- |--------------  |-------------|---------|---------|
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
+| Valor 1,1    | Valor 1,2    | Valor 1,3    | | Valor 1,2    | Valor 1,3    |
 
 
 ## 5.6 Alineamiento Multiple en T-Coffee EMBL-EBI
