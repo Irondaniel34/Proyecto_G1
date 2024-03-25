@@ -6,10 +6,19 @@
 **Fecha:**  marzo 2024
 
 # 1.  Problema
-#### Los hongos, estimados en 1,5 millones de especies y ubicados en casi todos los ecosistemas terrestres, desempeñan roles ecológicos clave, como la descomposición de materia orgánica y la simbiosis con plantas. En Ecuador, el estudio y la caracterización de la diversidad fúngica son especialmente relevantes debido a su ubicación geográfica diversa y sus ecosistemas únicos. Sin embargo, su estudio se ve obstaculizado por su naturaleza efímera y la dificultad para identificar especies a partir de sus estructuras visibles. En particular, en la Hacienda "El Prado"-IASA I, no se ha caracterizado la microbiota fúngica de los suelos, y debido a que los cuerpos fructíferos similares a menudo representan varias especies distintas, se subraya la necesidad de abordajes moleculares centrados en el estudio de la región espaciadora transcrita interna (ITS), para así, obtener datos en cuanto a su taxonomía a nivel de género y subgénero.
+#### Los hongos con un  biodiversidad estimada en 1,5 millones de especies y ubicados en casi todos los ecosistemas terrestres, desempeñan roles ecológicos clave, como la descomposición de materia orgánica y la simbiosis con plantas. En Ecuador, el estudio y la caracterización de la diversidad fúngica son especialmente relevantes debido a su ubicación geográfica diversa y sus ecosistemas únicos. Sin embargo, su estudio se ve obstaculizado por su naturaleza efímera y la dificultad para identificar especies a partir de sus estructuras visibles (Nilsson et al., 2009). 
+
+#### La ausencia de estudios previos sobre la microbiota fúngica en los suelos de la Hacienda “El Prado” - IASA I en Sangolquí, destaca la necesidad de realizar  una evaluación premilimar de la diversidad de hongos filamentosos y el establecimiento de un cepario de especies debidamente identificadas para el desarrollo de estrategias de biorrecuperación de suelos. Los métodos tradicionales para identificar hongos microscópicos y esporas de hongos se basan en el cultivo o la identificación morfológica mediante microscopía (Tonge et al., 2014); no obstante, en la actualidad, se subraya la necesidad de abordajes moleculares centrados en el estudio de la región espaciadora transcrita interna (ITS), para así, obtener datos en cuanto a la taxonomía a nivel de género y subgénero (Nilsson et al., 2015).
 
 # 2.  Antecedentes
-#### La ausencia de estudios previos sobre la microbiota fúngica en los suelos del sector de Horticultura y Fruticultura de la Hacienda “El Prado” - IASA I, ubicada en la provincia Pichincha, cantón Rumiñahui, parroquia Sangolquí, destaca la necesidad de realizar esta investigación. Un proyecto que implica la evaluación pionera de la diversidad de hongos filamentosos, principalmente en aquellos con potencial benéfico para la biorrecuperación de los suelos. 
+
+#### El barcoding o código de barras de ADN es una técnica que permite la identificación molecular de especies basándose en regiones del ADN altamente conservadas presentes en todas las especies (Bentos & Sosa, 2020). De forma que en este proceso, las secuencias desconocidas se comparan con  secuencias de referencias registradas en bases de datos internacionales como GenBank a través de herramientas de alineamientos como BLAST (Watkinson et al., 2015).
+
+#### En el caso de hongos filamentosos, se ha determinado que la región espaciadora transcrita interna (ITS) en el operón del ARN ribosomal (ARNr) se ha aceptado como el código de barras fúngico (Op De Beeck et al., 2014) para ser utilizada como referencia en los estudios metagenómicos de hongos basados en amplicones (Tonge et al., 2014). debido a que en esta región del genoma de hongos están presentes regiones variables y altamente conservadas, y para el cual existen numerosos primers universales; de forma general, el operón ribosómico del hongo consta de la subunidad pequeña (nSSU o 18S) y la subunidad grande (nLSU o 28S), separadas por las regiones ITS1 e ITS2 que abarcan los 5.8S conservados (Tonge et al., 2014).
+
+![ITS_region](https://github.com/Irondaniel34/Proyecto_G1/blob/8da27d7ca631d82c8a43b11746e9ef24973c9a7e/Capturas_de_pantalla/ITS_region.jpg)
+##### Descripción esquemática de la región ITS de hongos. *Fuente:* Nilsson et al. (2009) 
+
 
 # 3.  Objetivos
 
@@ -402,10 +411,16 @@ Dado que los resultados obtenidos con la herramienta kraken2 se transformaron en
 
 ## 8. Referencias
 
-#### Batut et al., 2018 Community-Driven Data Analysis Training for Biology Cell Systems 10.1016/j.cels.2018.05.012
-#### EMBL-EBI, Wellcome Genome Campus, Hinxton, Cambridgeshire, CB10 1SD, UK.
-#### Hiltemann, Saskia, Rasche, Helena et al., 2023 Galaxy Training: A Powerful Framework for Teaching! PLOS Computational Biology 10.1371/journal.pcbi.1010752
-#### Nilsson, R. H., Ryberg, M., Abarenkov, K., Sjökvist, E., & Kristiansson, E. (2009). The ITS region as a target for characterization of fungal communities using emerging sequencing technologies. FEMS Microbiology Letters, 296(1), 97-101. https://doi.org/10.1111/j.1574-6968.2009.01618.x
-#### Sophia Hampe, Bérénice Batut, Paul Zierep, Taxonomic Profiling and Visualization of Metagenomic Data (Galaxy Training Materials). https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/taxonomic-profiling/tutorial.html Online; accessed Sun Mar 24 2024
-#### The Galaxy Community. The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update, Nucleic Acids Research, Volume 50, Issue W1, 5 July 2022, Pages W345–W351, doi:10.1093/nar/gkac247
+#### - Batut et al., 2018 Community-Driven Data Analysis Training for Biology Cell Systems 10.1016/j.cels.2018.05.012
+#### - Bentos, F. R., & Sosa, F. C. (2020). Aplicación del código de barras de ADN (DNA Barcoding) para la identificación de especies vegetales de interés industrial. INNOTEC, 20, 117-138.
+#### - EMBL-EBI, Wellcome Genome Campus, Hinxton, Cambridgeshire, CB10 1SD, UK.
+#### - Hiltemann, Saskia, Rasche, Helena et al., 2023 Galaxy Training: A Powerful Framework for Teaching! PLOS Computational Biology 10.1371/journal.pcbi.1010752
+#### - Nilsson, R. H., Ryberg, M., Abarenkov, K., Sjökvist, E., & Kristiansson, E. (2009). The ITS region as a target for characterization of fungal communities using emerging sequencing technologies. FEMS Microbiology Letters, 296(1), 97-101. https://doi.org/10.1111/j.1574-6968.2009.01618.x
+#### - Op De Beeck, M., Lievens, B., Busschaert, P., Declerck, S., Vangronsveld, J., & Colpaert, J. V. (2014). Comparison and validation of some ITS primer pairs useful for fungal metabarcoding studies. PloS one, 9(6), e97629. https://doi.org/10.1371/journal.pone.0097629
+#### - Sophia Hampe, Bérénice Batut, Paul Zierep, Taxonomic Profiling and Visualization of Metagenomic Data (Galaxy Training Materials). https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/taxonomic-profiling/tutorial.html Online; accessed Sun Mar 24 2024
+#### - The Galaxy Community. The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update, Nucleic Acids Research, Volume 50, Issue W1, 5 July 2022, Pages W345–W351, doi:10.1093/nar/gkac247
+#### - Tonge, D. P., Pashley, C. H., & Gant, T. W. (2014). Amplicon–based metagenomic analysis of mixed fungal samples using proton release amplicon sequencing. PloS one, 9(4), e93849. https://doi.org/10.1371/journal.pone.0106021
+#### - Watkinson, S. C., Boddy, L., & Money, N. (2015). The Fungi (3.a ed.). Academic Press.
+#### - White, T., Bruns, T., Lee, S., & Taylor, J. (1990). Amplification and Direct Sequencing of Fungal Ribosomal RNA Genes for Phylogenetics. En Pcr Protocols: A Guide to Methods and Applications (Vol. 31, pp. 315-322).
+
 
