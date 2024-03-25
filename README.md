@@ -299,7 +299,9 @@ Después con ayuda de la herramienta Kraken2, se obtuvo la clasificación taxon�
 ![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy21.png)
 ![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy22.png)
 
+Posteriormente se realiza una transformación de los formatos de salida con la herramienta Krakentools: Convert kraken report file
 
+![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy23.png)
 ## 5.8 Visualización 
 
 ## 5.5 BLAST en NCBI
