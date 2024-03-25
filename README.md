@@ -290,6 +290,14 @@ Se cargó el archivo en formato FASTA obtenido del alineamiento múltiple en la 
 ![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy14.png)
 
 Después con ayuda de la herramienta Kraken2, se obtuvo la clasificación taxonómica 
+![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy15.png)
+![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy16.png)
+![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy17.png)
+![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy18.png)
+![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy19.png)
+![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy20.png)
+![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy21.png)
+![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy22.png)
 
 
 ## 5.8 Visualización 
