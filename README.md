@@ -401,7 +401,7 @@ Dado que los resultados obtenidos con la herramienta kraken2 se transformaron en
 ## 6.Conclusiones
 
 #### - Se realizó el control de calidad por medio de la herramienta FASTQc en terminal de Linux de 84 secuencias, de las cuales 77 (91.7%) secuencias cumplieron los parámetros de calidad de los autores para seguir con el proceso de análisis de calidad.
-#### - Se identificó molecularmente las diferentes especies de hongos filamentosos con un porcentaje de identidad mayor al 99%, con un E value de 0.0, entre los cuales los géneros más abundantes fueron *Trichoderma*, *Fusarium* y *Mucor* fueron los más abundantes de entre la población.
+#### - Se identificó molecularmente las diferentes especies de hongos filamentosos con un porcentaje de identidad mayor al 99%, con un E value de 0.0, entre los cuales los géneros más abundantes fueron *Trichoderma*, *Fusarium* y *Mucor*.
 #### - Se extrajo la información taxonómica de las secuencias mediante el uso de plataformas como Kraken2 y la herramienta Krona Pie Chart del Galaxy Europe.
 
 ## 7. Recomendaciones
