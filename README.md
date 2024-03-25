@@ -24,7 +24,7 @@
 
 # 4.  Flujograma de trabajo
 
-![Flujograma](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Trabajo_final_flujograma.jpg?raw=true)
+![Flujograma](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Trabajo_final_flujograma1.jpg?raw=true)
 
 # 5.  Análisis de datos
 
