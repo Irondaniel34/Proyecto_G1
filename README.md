@@ -298,9 +298,7 @@ Dado que los resultados obtenidos con la herramienta kraken2 se transformaron en
 ![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy24.png)
 
 ![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy25.png)
-Posteriormente se realiza una transformación de los formatos de salida con la herramienta Krakentools: Convert kraken report file
 
-![Imagen16W](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy23.png)
 ## 6.Conclusiones
 
 ## 7. Referencias
