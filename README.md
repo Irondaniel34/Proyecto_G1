@@ -146,14 +146,7 @@ Esto fue realizado en las dos carpetas que contenian archivos *.ab1*, el directo
 
 ## 5.2  Informe de calidad FASTQc
 
-### 5.2.1  Informe de calidad mediante Galaxy Europe
-Con las secuencias en formato FastQ, se realizó el análisis para el control de calidad de las secuencias en FastQC
-![Imagen3_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy4.png)
-
-Según el informe de calidad obtenido, se analizan las secuencias y se opta por relizar un corte para mejorar la calidad de las mismas. 
-![Imagen3_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy5.png)
-
-### 5.2.2  Informe de calidad mediante terminal de Linux
+### 5.2.1 Informe de calidad mediante terminal de Linux
 
 Se efectuó el análisis de calidad de las secuencias mediante la herramienta FASTQc, que se ejecutó mediante línea de comando de Linux. 
 Para ello, se tuvo que primero instalar el paquete *FASTQc* en la terminal utilizando el siguiente comando:
@@ -177,12 +170,7 @@ Visualización de FASTQc mediante archivo *.html*
 
 
 ## 5.3 Trimmomatic 
-### 5.3.1  Trimmomatic mediante Galaxy Europe
-Dado que algunas secuencias presentaban una calidad deficiente, se procedió a realizar un filtrado utilizando la herramienta Trimmomatic.
-![Imagen3_linux](https://github.com/Irondaniel34/Proyecto_G1/blob/main/Capturas_de_pantalla/Galaxy6.png)
-Se procedió de inmediato a ejecutar un informe de calidad para cada una de estas secuencias utilizando FastQC. Se verificó que la calidad había mejorado significativamente, lo que permitió avanzar sin contratiempos en el proceso.
-
-### 5.3.2  Trimmomatic mediante terminal de Linux
+### 5.3.1 Trimmomatic mediante terminal de Linux
 También se efectuó la herramienta *Trimmomatic* por medio de línea de comando de Linux, se tomó esta decisión al ver que mediante otras plataformas existía problemas al cargar los archivos.
 Para la realización de los cortes de trimmomatic, se consultó a la inteligencia artificial, la cuál indicó:
 
